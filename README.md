@@ -1,5 +1,5 @@
-## This repo contains R scripts and `.ipynb` for spatial_analysis of MBEN data
-`./scripts` main folder for scripts and notebooks, details can be found within each R script or in `.ipynb` documentaitons
+## This repo contains scripts and notebooks for spatial_analysis of MBEN data
+`./scripts` main folder for R scripts and `.ipynb`, details can be found within each R script or notebook documentaitons
   - `spatial_binning.R` # contains code to do spatial binning given custom bin size (ie side length of a square shape)
   - `spatial_compare_v2.ipynb` # cell-level analysis
   - `spatial_compare_mols_v2.ipynb` # molecule-level (or bin-level) analysis, spatial binning of transcript coordiantes
