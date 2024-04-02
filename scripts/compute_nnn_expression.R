@@ -12,6 +12,8 @@ as <- a[order(a$molecule),]
 ams <- data.matrix(as)
 
 # count number of called molecules per gene and extract expression values
+# return lines when gene name changes, add value of zero and length of data matrix
+# substract value from previous value in data.frame which returns the total gene expression count per transcript
 jump <- which(c(FALSE, tail(as$molecule,-1) != head(as$molecule,-1)))
 xy <- as.matrix(dim(as))
 jump <- append(jump,xy[1,1])
