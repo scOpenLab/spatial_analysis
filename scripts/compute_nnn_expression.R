@@ -1,5 +1,4 @@
-
-# extract expression values and next nearest neighbours from resolve data
+# Extract expression values and next nearest neighbours - Resolve data ----
 
 library(FNN)
 library(data.table)
@@ -39,8 +38,8 @@ comp <- cbind(new,nnn_dis)
 write.table(comp,"~/your_mc_exp_nnn.txt")
 
 
+# Extract expression values and next nearest neighbours - Vizgen data ----
 # for vizgen data the follow adaptations are required
-
 library(FNN)
 library(data.table)
 
@@ -79,7 +78,7 @@ comp <- cbind(new,nnn_dis)
 write.table(comp,"~/your_viz_exp_nnn.txt")
 
 
-# for Xenium 
+# Extract expression values and next nearest neighbours - Xenium data ---- 
 library(FNN)
 library(data.table)
 
