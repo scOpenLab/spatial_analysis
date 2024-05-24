@@ -10,4 +10,5 @@
   - `compute_nnn_expression.R`: script that extracts expression level per section and median next nearest neighbour distance among the same transcripts
   - clustering and cluster analysis:
     - `cluster_maker.R`: Performs leiden clustering on integrated samples of each technology.
-    - `cluster_analysis.ipynb`: Performs plotting of UMAPs, barplots, dotplots, heatmaps and overlays for the rulting clusters. 
+    - `cluster_analysis.ipynb`: Performs plotting of UMAPs, barplots, dotplots, heatmaps and overlays for the rulting clusters.
+    - `neighborhood_analysis.R`: Performs the permutation tests for the neighborhood analysis and plots heatmaps with p-values and z-scores. 
